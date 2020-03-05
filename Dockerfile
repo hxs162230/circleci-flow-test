@@ -1,6 +1,6 @@
 
 FROM node:9.2.0-alpine
-LABEL maintainer="PAUL,CHEN<b10207146@mail.ntust.edu.tw>" 
+LABEL maintainer="HAUN" 
 COPY . /app
 WORKDIR /app
 RUN mkdir -p coverage
